@@ -69,7 +69,12 @@ Steps to reproduce :
 9. Copy file  (file.txt) to directory  resources/ru/idea/possiblebug/res in the module
    resources/ru/idea/possiblebug/res/file.txt
    (what is not actually done in this project)
-   Run the test - it is successful
+
+10. Run the test - it is successful  -
+   But somehow another out (module/out) directory is created.
+   Judging by the common sense it mustn't be so. it must by copied into build/classes/test ...  directory
+
+
 
 Whether or not it is a bug ? I do not know. It is debatable and makes questions, which, in turn, make finding the "right"
 answer even more difficult.
@@ -82,33 +87,38 @@ On the other hand NONE tells what the restrictions for source code are.
 
 Definition given in
 http://searchmicroservices.techtarget.com/definition/source-code
-as example only says
-
+as example says :
 Source code is the fundamental component of a computer program that is created by a programmer.
 It can be read and easily understood by a human being.
 
 
 another definition given in wikipedia
 https://en.wikipedia.org/wiki/Source_code
+says:
+
 "In computing, source code is any collection of computer instructions, possibly with comments,
 written using a human-readable programming language, usually as ordinary text."
 
-Does not give any strict limitations, as well.
+Does not give any strict limitations to the source code, as well.
 
 to summarize a source code is a component of computer programm created by programmer that can be read and EASILY
 understood (by human)
 
 In my case file.txt can as well be considered a source code. A Source code that is
 not compiled but, however, used when test is being run.
-Moreover the entire package ru/idea/possiblebug can easily be moved to another location without breaking the test logic
-because it is self contained and uses relative paths to elements within itself.
 
-In case of usage of predefined resources/ru/idea/possiblebug/res/file.txt it would be more difficult. You' have to move
+Apart of the main question i'd add that the entire package ru/idea/possiblebug can easily be moved to
+another location with all its content without breaking the test logic
+because the it is self contained and uses relative paths to elements within itself.
+
+In case of usage of predefined resources/ru/idea/possiblebug/res/file.txt it would be more difficult. You'd have to move
 class and resource from two folders.
 
 Anyway if you find this a bug please fix it.
 If not please consider making it possible to use resources situated near the source code.
 
+
+I will provide you with more info should it be required.
 
 
 

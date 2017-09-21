@@ -24,9 +24,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a23671d-eaca-49fa-b34f-ead5a3f9eb84" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/build.gradle" afterPath="$PROJECT_DIR$/module/src/test/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/src/test/resources/ru/idea/possiblebug/res/file.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradleprojectbug.iws" afterPath="$PROJECT_DIR$/gradleprojectbug.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/desc.txt" afterPath="$PROJECT_DIR$/module/desc.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/module.iml" afterPath="$PROJECT_DIR$/module/module.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -92,8 +93,8 @@
       <file leaf-file-name="desc.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/module/desc.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+            <state relative-caret-position="410">
+              <caret line="115" column="0" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -124,8 +125,8 @@
       <file leaf-file-name="TestWithResource.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/src/test/java/ru/idea/possiblebug/TestWithResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+            <state relative-caret-position="315">
+              <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -619,57 +620,6 @@
               <item name="gradleprojectbug" type="b2602c69:ProjectViewProjectNode" />
               <item name="gradleprojectbug" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gradleprojectbug" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gradleprojectbug" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gradleprojectbug" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gradleprojectbug" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gradleprojectbug" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gradleprojectbug" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="ru" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gradleprojectbug" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gradleprojectbug" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="ru" type="462c0819:PsiDirectoryNode" />
-              <item name="idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gradleprojectbug" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gradleprojectbug" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="ru" type="462c0819:PsiDirectoryNode" />
-              <item name="idea" type="462c0819:PsiDirectoryNode" />
-              <item name="possiblebug" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gradleprojectbug" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gradleprojectbug" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -766,6 +716,18 @@
               <item name="ru" type="462c0819:PsiDirectoryNode" />
               <item name="idea" type="462c0819:PsiDirectoryNode" />
               <item name="possiblebug" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gradleprojectbug" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gradleprojectbug" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="idea" type="462c0819:PsiDirectoryNode" />
+              <item name="possiblebug" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -936,12 +898,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestWithResource_testResources - 2017.09.21 at 10h 40m 34s.xml">
-      <configuration name="TestWithResource.testResources" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestWithResource_testResources - 2017.09.21 at 10h 41m 19s.xml">
-      <configuration name="TestWithResource.testResources" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestWithResource_testResources - 2017.09.21 at 10h 43m 27s.xml">
       <configuration name="TestWithResource.testResources" configurationId="JUnit" />
     </history-entry>
@@ -966,10 +922,15 @@
     <history-entry file="TestWithResource_testResources - 2017.09.21 at 15h 23m 40s.xml">
       <configuration name="TestWithResource.testResources" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestWithResource_testResources - 2017.09.21 at 16h 14m 07s.xml">
+      <configuration name="TestWithResource.testResources" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestWithResource_testResources - 2017.09.21 at 16h 14m 23s.xml">
+      <configuration name="TestWithResource.testResources" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1890" y="88" width="1884" height="904" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -980,8 +941,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32951653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30025446" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30025446" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27307275" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1037,8 +998,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module/src/test/java/ru/idea/possiblebug/TestWithResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        <state relative-caret-position="315">
+          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1047,8 +1008,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module/desc.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+        <state relative-caret-position="410">
+          <caret line="115" column="0" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
           <folding />
         </state>
       </provider>
