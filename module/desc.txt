@@ -1,4 +1,4 @@
-Looks like I've encountered a bug of IntellijIdea
+It Looks like I've encountered a bug of IntellijIdea
 
 
 IntelliJ IDEA 2017.2
@@ -12,7 +12,7 @@ Mac OS X 10.9.5IntelliJ IDEA 2017.2
                Mac OS X 10.9.5
 
 
-
+Steps to reproduce :
 
 1.  Pull project from
 
@@ -47,11 +47,12 @@ Mac OS X 10.9.5IntelliJ IDEA 2017.2
     https://www.jetbrains.com/help/idea/2017.2/compiler.html?utm_medium=help_link&utm_source=from_product&utm_campaign=IC&utm_content=2017.2
 
     says that
-    ... In this field, specify the regular expression that describes the files that should be recognized as resources and, consequently, copied to the output directory...
+    ... In this field, specify the regular expression that describes the files that should be recognized as
+    resources and, consequently, copied to the output directory...
 
     The expression setting itself says that EVERYTHING recognized as resource and therefore copied to the output
     directory but except for the files with extensions java, form, class, groovy, scala, flex, kt, clj and aj
-    (which are preprocessed before copying  - compiled in other words)
+    (which are compiled)
 
 
 7.  In case of a simple "Hello world" project - with no gradle support those files that are situated in
@@ -61,11 +62,12 @@ Mac OS X 10.9.5IntelliJ IDEA 2017.2
 Described facts makes me think It is a bug.
 
 In addition.
-     6 or 7 years ago the setting Intellij IDEA --> preferences --> compile --> resource patterns
-
+     6 or 7 years ago in previouse versions of IDE the setting
+     Intellij IDEA --> preferences --> compile --> resource patterns
      did not permit to copy a file to output by default. I remember that I had to change default value to achieve
-     copying resources to output directory. Later in newer versions the default value had been changed.
 
+     copying resources to output directory. Later in newer IDE versions the default value had been changed so every
+     not explicitly excluded files are copied to output folder.
 
 
 
